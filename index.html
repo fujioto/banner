@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <img src="./images/lebra.png" alt="" class="img_fixed">
+    <div class="promocode" style="display: none;">
+            <h1 class="win_2k-h1">Ваш промокод: <b style="color: #6798FF;">P24J28</b></h1>
+    </div>
+    <div class="square" style="display: none;">
+        
+        <div id="win_2k" style="display: none;">
+            <h1 class="win_2k-h1">ПОЗДРАВЛЯЕМ!!!</h1>
+            <p style="margin-top: 41px;">ВЫ ВЫИГРАЛИ <b style="color: #6798FF;">ФРИБЕТ</b> В РАЗМЕРЕ</p>
+            <h2 style= 'color: #6798FF; font-size: 60px;' id="price">2000 РУБЛЕЙ</h2>
+            <p style="margin-top: 41px;"><b style="color: #6798FF;" id="lgn">ВОЙДИТЕ,</b> ЧТОБЫ ЗАБРАТЬ ПРИЗ</p>
+            <button id="close"></button>
+        </div>
+        <div id="win_1k" style="display: none;">
+            <h1 class="win_2k-h1">ПОЗДРАВЛЯЕМ!!!</h1>
+            <p style="margin-top: 41px;">ВЫ ВЫИГРАЛИ <b style="color: #6798FF;">ФРИБЕТ</b> В РАЗМЕРЕ</p>
+            <h2 style= 'color: #6798FF; font-size: 60px;' id="price2">1000 РУБЛЕЙ</h2>
+            <p style="margin-top: 41px;"><b style="color: #6798FF;" id="lgn2">ВОЙДИТЕ,</b> ЧТОБЫ ЗАБРАТЬ ПРИЗ</p>
+            <button id="close2"></button>
+        </div>
+        <div id="win_500" style="display: none;">
+            <h1 class="win_2k-h1">ПОЗДРАВЛЯЕМ!!!</h1>
+            <p style="margin-top: 41px;">ВЫ ВЫИГРАЛИ <b style="color: #6798FF;">ФРИБЕТ</b> В РАЗМЕРЕ</p>
+            <h2 style= 'color: #6798FF; font-size: 60px;' id="price3">500 РУБЛЕЙ</h2>
+            <p style="margin-top: 41px;"><b style="color: #6798FF;" id="lgn3">ВОЙДИТЕ,</b> ЧТОБЫ ЗАБРАТЬ ПРИЗ</p>
+            <button id="close3"></button>
+        </div>
+        
+    </div>
+    <header class="header">
+        <div class="wrapper-header">
+            <div class="logo">
+                <img src="./icons/Logo.png" alt="" class="logo">
+            </div>
+            <nav class="nav">
+                <ul class="menu">
+                    <li class="sport">спорт</li>
+                    <li class="live">live</li>
+                    <li class="cybersport">киберспорт</li>
+                    <li class="fast-games">быстрые игры</li>
+                    <li class="sales">акции</li>
+                    <li class="score">статистика</li>
+                </ul>
+            </nav>
+            <div class="right-block">
+                <object style="cursor: pointer;" data="./icons/Search (1).svg" type="image/svg+xml" width="17px" height="17px"></object>
+                <object style="cursor: pointer;" data="./icons/Gear.svg" type="image/svg+xml" width="17px" height="17px"></object>
+                <button class="login">Войти</button>
+                <button class="signin">Регистрация</button>
+
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="wrapper">
+            <div class="banner">
+                <div class="game">
+                    <div class="top">
+                        <div class="logo">
+                            <img src="./icons/Logo.png" alt="">
+                        </div>
+                        <div class="text">
+                            Выбери стакан<br> и получи <b style="color: #6798FF;">ФРИБЕТ</b> до 2000 рублей!
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <button id="cup1">
+                            <img src="./images/cup.png" class="cup_img1" alt="">
+                        </button>
+                        <button id="cup2">
+                            <img src="./images/cup.png" class="cup_img2" alt="">
+                        </button>
+                        <button id="cup3">
+                            <img src="./images/cup.png" class="cup_img3" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="live">
+                    <!-- <video src="./images/Futazh_No_Signal_-_Clever_Design.mp4" height="490px" width="821px" autoplay></video> -->
+                    <iframe width="821px" height="486px" src="https://www.youtube.com/embed/57vxwh2Af7A?autoplay=1&loop=1&playlist=57vxwh2Af7A&showinfo=0&color=white&mute=1&modestbranding=1" title="YouTube video player" frameborder="0" allow="autoplay" class="video_live" style="pointer-events: none;" ></iframe>
+                </div>   
+            </div>
+            
+        </div>
+    </main>
+    <div class="events">
+        <h1 class="win_2k-h1">COMING SOOOOOOON......</h1>
+    </div>
+</body>
+</html>
